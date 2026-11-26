@@ -51,14 +51,12 @@ main{max-width:760px;margin:0 auto;padding:clamp(2rem,7vw,4.5rem) clamp(1.1rem,5
 .hero{margin-bottom:3.2rem}
 .hero h1{font-size:clamp(2.1rem,7vw,3.1rem);line-height:1.25;margin:0 0 .5rem;letter-spacing:.06em;font-weight:600}
 .hero .sub{color:var(--muted);font-size:15px;letter-spacing:.18em;margin:0 0 1.8rem;font-family:var(--sans)}
-.lede{font-size:1.02rem;line-height:2.02;margin:0 0 1rem}
-.note{background:var(--panel);border:1px solid var(--rule);border-left:3px solid var(--accent);
-  border-radius:4px;padding:1.1rem 1.3rem;margin:1.8rem 0 3rem;font-size:15px;line-height:1.9}
-.note h2{font-family:var(--sans);font-size:13px;letter-spacing:.12em;color:var(--muted);
-  margin:0 0 .7rem;font-weight:600}
-.note p{margin:.45rem 0}
-.note code{font-family:var(--mono);font-size:.88em;background:var(--code-bg);
-  padding:.08em .35em;border-radius:3px;color:var(--code-fg)}
+.intro p{margin:0 0 1.15em;text-align:justify;line-height:2.05}
+.intro p:first-child{font-size:1.04em}
+.colophon{margin-top:3.6rem;padding-top:1.3rem;border-top:1px solid var(--rule);
+  font-family:var(--sans);font-size:12px;color:var(--muted)}
+.colophon h2{font-size:11px;letter-spacing:.16em;font-weight:600;margin:0 0 .4rem}
+.colophon p{margin:0}
 .vol{margin:2.6rem 0}
 .vol-head{display:flex;align-items:baseline;gap:1rem;border-bottom:1px solid var(--rule);
   padding-bottom:.6rem;margin-bottom:.3rem}
